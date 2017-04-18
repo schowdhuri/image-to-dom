@@ -1,0 +1,12 @@
+.image-to-dom canvas {
+	display: none;
+}
+.image-to-dom .table-image {
+	border: none;
+	border-collapse: collapse;
+}
+.image-to-dom .table-image tr td {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
