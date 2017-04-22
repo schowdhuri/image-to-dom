@@ -1,6 +1,6 @@
 # Image to DOM
 
-Convert an image to a matrix of DOM elements. This was primarily built to circumvent image blocking in email ads. Hence, the use of `<table>` elements.
+Convert an image to a matrix of DOM elements. This was primarily built to circumvent image blocking in email clients. Hence, the use of `<table>` elements.
 
 ## Installation
 
@@ -8,6 +8,12 @@ Using npm:
 
 ```
 npm install --save image-to-dom
+```
+
+Within the browser:
+
+```html
+<script src="https://unpkg.com/image-to-dom"></script>
 ```
 
 ## Usage
