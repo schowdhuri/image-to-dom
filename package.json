@@ -1,0 +1,26 @@
+{
+  "name": "image-to-dom",
+  "version": "1.0.0",
+  "description": "Renders an image using DOM elements",
+  "main": "app/index.js",
+  "browser": "dist/image-to-dom.min.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schowdhuri/image-to-dom.git"
+  },
+  "author": "Subir Chowdhuri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schowdhuri/image-to-dom/issues"
+  },
+  "homepage": "https://github.com/schowdhuri/image-to-dom#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "webpack": "^2.4.1"
+  }
+}

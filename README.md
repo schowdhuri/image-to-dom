@@ -2,13 +2,21 @@
 
 Convert an image to a matrix of DOM elements. This was primarily built to circumvent image blocking in email ads. Hence, the use of `<table>` elements.
 
+## Installation
+
+Using npm:
+
+```
+npm install --save image-to-dom
+```
+
 ## Usage
 
 ```html
 <div class="image-to-dom" data-src="media/01.jpg"></div>
 ```
 ```js
-const i2d = new ImageToDOM(document.querySelector("image-to-dom", {
+const i2d = new ImageToDOM(document.querySelector(".image-to-dom", {
   xres: 2,
   yres: 2
 });
